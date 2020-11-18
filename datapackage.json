@@ -1,0 +1,39 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "https://raw.githubusercontent.com/andrelgamei/teste/main/csv-sample2.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "date",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "value",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ]
+}

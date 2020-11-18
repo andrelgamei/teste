@@ -24,13 +24,14 @@
           },
           {
             "name": "date",
-            "type": "integer",
+            "type": "date",
             "format": "default"
           },
           {
             "name": "value",
             "type": "integer",
-            "format": "default"
+            "format": "default",
+            "decimalChar": ","
           }
         ]
       }
